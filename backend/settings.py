@@ -38,7 +38,8 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'rest_framework',
-    'citas.apps.CitasConfig',  # activate the new app
+    'citas.apps.CitasConfig',  # Activamos la app citas
+    'frontend',  # Activamos la app frontend
 
 ]
 
