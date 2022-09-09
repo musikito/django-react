@@ -8,3 +8,4 @@ class CitaSerializer(serializers.ModelSerializer):
         model = Citas
         fields = '__all__'
         # fields = ['id', 'autor', 'mensaje']
+        # ordering = ['creado_en']
