@@ -7,6 +7,3 @@ class Citas(models.Model):
     autor = models.CharField(max_length=30)
     mensaje = models.CharField(max_length=500)
     creado_en = models.DateTimeField(auto_now_add=True)
-
-   # class Meta:
-   #     ordering = ['-creado_en']
